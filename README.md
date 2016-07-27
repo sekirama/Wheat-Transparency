@@ -1,7 +1,7 @@
 # Wheat-Transparency
 Wheat Transparency theme for BetterDiscord
 Screenshots:
-![Screenshot 1](http://prntscr.com/bydq96)
+![Screenshot 1](http://image.prntscr.com/image/b34336998eaf4686af8948a14be50b90.png)
 
 READ THIS: This theme is on both Light and Dark Theme of Discord, if you want to use this theme, install BetterDiscord (https//betterdiscord.net/) and then install my theme on "C:\Users\YOURUSER\AppData\Roaming\BetterDiscord\themes".
 
