@@ -7,6 +7,7 @@ READ THIS: This theme is on both Light and Dark Theme of Discord, if you want to
 If you find any bug in my theme you can tell to me in the #themes on the Official BetterDiscord server (On Discord of course), or you can PM me too.
 
 Thanks for everyone who helped me when i had problems with this theme, specially:
+
 -Omniscient (For helping with a lot of the codes + the template theme)
 
 -uri (For helping me with some (50%) codes)
