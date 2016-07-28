@@ -182,11 +182,11 @@
 
 /* Friends */
 #friends .friends-table .friends-table-body {
-    background: rgba(0, 0, 0, 0.4) !important;   
+    background: rgba(0, 0, 0, 0.6) !important;   
 }
 
 #friends .friends-table .friends-table-header !important{
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.7) !important;
 }
 
 #friends !important{
@@ -215,7 +215,7 @@
 }
 
 #friends .friends-header, #friends .friends-header .tab-bar {
-    background: rgba(0, 0, 0, 0.3) !important;
+    background: rgba(0, 0, 0, 0.7) !important;
     border-bottom: none !important;
 }
 
@@ -354,7 +354,7 @@
 }
 
 #friends .friends-table .friends-table-header .friends-column {
-    color: hsla(0,0%,100%,.3) !important;
+    color: hsla(0,0%,100%,.6) !important;
 }
 
 #friends .friends-header .tab-bar .tab-bar-item {
@@ -887,7 +887,7 @@ element.style {
 }
 
 #friends .friends-table .friends-table-header {
-	background: rgba(0, 0, 0, .3)!important;
+    background: rgba(0, 0, 0, .7)!important;
 }
 
 #friends .friends-table {
