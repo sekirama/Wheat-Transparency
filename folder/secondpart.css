@@ -8,6 +8,8 @@
     background: transparent !important;
 }
 
+.flex-spacer { background: transparent !important; }
+
 /* Server list area */
 .guilds-wrapper {
     background: rgba(0, 0, 0, 0.7) !important;
@@ -21,12 +23,12 @@
 
 .guild-channels .channel-text.selected a {
     border-radius: 10px
-}    
+}
 
 .guild-channels header {
     color: #F98C04;
     opacity: .9;
-}    
+}
 /* Chat area */
 
 .content .flex-spacer {
@@ -78,7 +80,7 @@
 .guild-header ul {
     top: 13px;
 }
-.guild-header.guild-header-open ul { 
+.guild-header.guild-header-open ul {
     top: 56px;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
@@ -191,12 +193,12 @@
 
 .private-channels .channel .channel-activity {
     background: transparent !important;
-    
+
 }
 
 /* Friends */
 #friends .friends-table .friends-table-body {
-    background: rgba(0, 0, 0, 0.6) !important;   
+    background: rgba(0, 0, 0, 0.6) !important;
 }
 
 #friends .friends-table .friends-table-header !important{
@@ -281,7 +283,7 @@
     color: #F98C04;
 }
 
-.guild-header header {    
+.guild-header header {
     background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
@@ -335,7 +337,7 @@
 .theme-dark .scroller-wrap .scroller::-webkit-scrollbar-thumb,
 .scroller-wrap .scroller::-webkit-scrollbar-thumb,
 .theme-dark .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece { 
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     border: 3px solid transparent;
     border-radius: 90px;
 }
@@ -1114,8 +1116,8 @@
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMSIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE1IDE1VjZoLTR2OWgtLjUwODk5NDgyQzEwLjIyNzg4MDQ4IDE1IDEwIDE1LjIyMzg1NzYgMTAgMTUuNWMwIC4yNjgwNjY0LjIxOTgzMDUuNS40OTEwMDUxOC41aDUuMDE3OTg5NjRDMTUuNzcyMTE5NTIgMTYgMTYgMTUuNzc2MTQyNCAxNiAxNS41YzAtLjI2ODA2NjQtLjIxOTgzMDUtLjUtLjQ5MTAwNTE4LS41SDE1em0yLTloMVY0SDh2MmgxdjhsLTIgMnYyaDUuMnY0aDEuNnYtNEgxOXYtMmwtMi0yVjZ6Ii8+CiAgPC9nPgo8L3N2Zz4=")!important;
 }
 
-.chat.private .channel-group-dm ~ .header-toolbar button:nth-child(0) 
-span[style], #friends .header-toolbar button:nth-child(2) span[style], .chat.private 
+.chat.private .channel-group-dm ~ .header-toolbar button:nth-child(0)
+span[style], #friends .header-toolbar button:nth-child(2) span[style], .chat.private
 .header-toolbar button:nth-child(3) span[style] {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0xMSAxM2MyLjIxIDAgNC0xLjc5IDQtNHMtMS43OS00LTQtNC00IDEuNzktNCA0IDEuNzkgNCA0IDR6bTAgMmMtMi42NyAwLTggMS4zNC04IDR2MmgxNnYtMmMwLTIuNjYtNS4zMy00LTgtNHptOS4wNjgxMTA2LTQuMDczNzMzODhWOC41NjEwODkzNmMwLS4xNzYyMDU0NSAwLS41NjEwODkzNi0uNTY2Nzc0Ny0uNTYxMDg5MzYtLjU2Njc3NDggMC0uNTcyMzk4MS4zODQ4ODM5LS41NzIzOTgxLjU2MTA4OTM2djIuMzY1MTc2NzZoLTIuMzE0ODE0NGMtLjE3NDkzMzIgMC0uNjA3NzE0NyAwLS42MDc3MTQ3LjU3MjM5Nzk4IDAgLjU3MjM5ODEuNDMyNzgxNS41NzM1MDE0LjYwNzcxNDcuNTczNTAxNGgyLjMxNDgxNDR2Mi4yOTkyNjcxYzAgLjE3NDkzMzIuMDA1NjIzMy42MjU4OTU3LjU3MjM5ODEuNjI1ODk1Ny41NjY3NzQ3IDAgLjU2Njc3NDctLjM5Mzc5OS41NjY3NzQ3LS41Njg3MzIydi0yLjM1NjQzMDZoMi4zMzkxMzM4Yy4xNzU1NjkzIDAgLjU5Mjc1NTYtLjAwMTEwMzMuNTkyNzU1Ni0uNTczNTAxNCAwLS41NzIzOTc5OC0uNDE3MTg2My0uNTcyMzk3OTgtLjU5Mjc1NTYtLjU3MjM5Nzk4aC0yLjMzOTEzMzh6Ii8+CiAgICA8cGF0aCBkPSJNMSAxaDI0djI0SDFWMXoiLz4KICA8L2c+Cjwvc3ZnPg==")!important;
 }
@@ -1203,11 +1205,11 @@ span[style], #friends .header-toolbar button:nth-child(2) span[style], .chat.pri
     background-color: #8b9edc;
 }
 
-.chat.private .channel-group-dm ~ 
+.chat.private .channel-group-dm ~
 .header-toolbar button:nth-child(0) span[style],
-#friends .header-toolbar button:nth-child(0) span[style], 
-.chat.private .header-toolbar button:nth-child(0) 
-span[style], .chat:not(.private) .header-toolbar button:nth-child(0) 
+#friends .header-toolbar button:nth-child(0) span[style],
+.chat.private .header-toolbar button:nth-child(0)
+span[style], .chat:not(.private) .header-toolbar button:nth-child(0)
 span[style] {
     background-image: url(/assets/567632a2702aed0296e15d68d6cae738.svg)!important;
 }
@@ -1274,10 +1276,10 @@ span[style] {
     line-height: 46px;
 }
 
-.friends-table .messages 
-.divider span, .friends-table 
-.messages .divider:before, .messages-wrapper .messages 
-.divider span, .messages-wrapper .messages 
+.friends-table .messages
+.divider span, .friends-table
+.messages .divider:before, .messages-wrapper .messages
+.divider span, .messages-wrapper .messages
 .divider:before {
     background-color: transparent !important;
 }
