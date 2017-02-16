@@ -8,7 +8,10 @@
     background: transparent !important;
 }
 
-.theme-dark .layers { background: transparent !important; }
+.theme-dark .layers {
+    background: transparent !important;
+}
+
 
 /* Server list area */
 .guilds-wrapper {
