@@ -8,7 +8,11 @@
     background: transparent !important;
 }
 
-.layers {
+.theme-dark .layers {
+    background: transparent !important;
+}
+
+.theme-light .layers {
     background: transparent !important;
 }
 
