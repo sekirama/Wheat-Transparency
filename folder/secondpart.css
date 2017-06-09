@@ -1,15 +1,14 @@
+.app, .callout-backdrop {
+    background: url(https://i.imgur.com/qBWkBG0.jpg) !important;
+    background-size: cover !important;
+}
+
 /* transparent areas */
 .chat, .typing, .content, .guild-channels, .private-channels, .guild-header, .divider-red span, .messages-wrapper, #voice-connection, #friends, .friends-table, .friends-table-body {
     background: transparent !important;
 }
 
-.theme-dark .layers {
-    background: transparent !important;
-}
-
-.theme-light .layers {
-    background: transparent !important;
-}
+.layer, .layers {background: transparent!important};
 
 
 /* Server list area */
@@ -33,10 +32,13 @@
 }
 /* Chat area */
 
-.content .flex-spacer {
+.chat .flex-spacer {
     background: rgba(0, 0, 0, 0.8) !important;
 }
 
+.channel-notification-settings .content .content-inner {
+  background: transparent!important;
+}
 /* User list area */
 
 .channel-members {
@@ -63,7 +65,7 @@
     background: transparent;
 }
 
-.guild-channels .channel-text.selected {
+.guild-channels .contentSelectedText-3j5CXt {
     margin-left: 5px;
     background: linear-gradient(-90deg,rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.9))!important;
     border-radius: 50px 50px 50px 50px;
@@ -71,7 +73,7 @@
     webkit-transition: margin-left ease-in,.2s,ease-out;
     transition: margin-left ease-in,.2s,ease-out;
 }
-.guild-channels .channel-text:hover {
+.guild-channels .contentHoveredText-2HYGIY {
     margin-left: 8px;
     background: linear-gradient(-90deg, rgba(0, 0, 0, 0.45) 10%, rgba(0, 0, 0, 0.9))!important;
     border-radius: 50px 50px 50px 50px;
@@ -1016,10 +1018,110 @@
     padding: 10px;
 }
 
-.form .control-group input[type=email], .form .control-group input[type=number], .form .control-group input[type=password], .form .control-group input[type=text], .form .control-group textarea {
+.scroller-NXV0-d {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.container-RYiLUQ,
+.wrapper-2ldvyE
+{
+    background: transparent !important;
+}
+
+.contentHoveredText-2HYGIY {
+    margin-left: 21px!important;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.45) 10%, rgba(0, 0, 0, 0.9))!important;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .32) !important;
+    webkit-transition: margin-left ease-in,.2s,ease-out;
+    transition: all ease-in,.2s,ease-out;
+    position: relative;
+}
+
+.contentSelectedText-3j5CXt {
+    margin-left: 5px;
+    background: linear-gradient(-90deg,rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.9))!important;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .32) !important;
+    webkit-transition: margin-left ease-in,.2s,ease-out;
+    transition: all ease-in,.2s,ease-out;
+}
+
+.contentDefaultText-2elG3R {
+  transition: all .2s ease;
+}
+
+
+
+.popout-menu {
+	box-shadow: 0 0 5px 2px rgba(0, 0, 0, .0);
+	background: rgba(20, 20, 20, 1.0);
+	padding: 6px 0 6px 0;
+	border-radius: 0;
+	-webkit-transition: all .3s ease;
+	trasition: all .3s ease;
+}
+
+.popout {
+	box-shadow: 0 2px 4px rgba(0,0,0,.0);
+	border-radius: 10px 10px 10px 10px;
+}
+
+.popout-menu .popout-menu-separator {
+	border-bottom: none;
+}
+
+.popout-menu .popout-menu-item{
+	margin: 2px 10px 3px 9px;
+	webkit-transition: background 300ms ease;
+	transition: background 300ms ease;
+}
+
+.popout-menu .popout-menu-item:hover{
+	background: rgba(30, 30, 30, 1.0);
+	color: #fff;
+	border-radius: 5px;
+	webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.channel-notification-settings .content .content-inner {
+  background: transparent!important;
+}
+
+.form .control-group input[type=text] {
     font-size: 16px;
     font-weight: 400;
-    color: #2e3136;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 0px solid #f0f0f0;
+    margin-bottom: 1px;
+    width: 100%;
+    resize: none;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.checkbox .checkbox-inner+span {
+  color: white;
+}
+
+.form .form-header {
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.form header {
+  color: white!important;
+}
+
+.messages-wrapper .messages .divider.divider-red>span {
+  height: 20px!important;
+}
+
+.form .control-group input[type=text] {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
     border: none;
     outline: none;
     border-bottom: 0px solid #f0f0f0;
