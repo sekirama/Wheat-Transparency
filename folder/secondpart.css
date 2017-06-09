@@ -1,8 +1,3 @@
-.app, .callout-backdrop {
-    background: url(https://i.imgur.com/qBWkBG0.jpg) !important;
-    background-size: cover !important;
-}
-
 /* transparent areas */
 .chat, .typing, .content, .guild-channels, .private-channels, .guild-header, .divider-red span, .messages-wrapper, #voice-connection, #friends, .friends-table, .friends-table-body {
     background: transparent !important;
